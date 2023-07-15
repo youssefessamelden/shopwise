@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+
+                         /* form */
+
+.form{
+    background-color: #FF324D;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.form span{
+    font-size: 1.69rem;
+    color: antiquewhite;
+}
+
+.email{
+    display: flex;
+}
+
+.email input{
+    height: 6vh;
+    width: 28vw;
+}
+
+.email .btn{
+    width: 10vw;
+    color: antiquewhite;
+    background-color: #202325;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.email .btn:hover{
+    background-color: black;
+    color: #fff;
+}
+
+                                    /* second footer */
+
+.foot{
+    display: flex;
+    justify-content: center;
+    background-color: #202325;
+    padding: 100px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.foot-1{
+    display: flex;
+    width: 81%;
+}
+
+.foot-1 ul{
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    color: aliceblue;
+    text-align: left;
+    justify-content: space-evenly;
+    
+} 
+
+.foot-1 .cat{
+    display: flex;
+}
+
+.foot-1 ul .brand{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+.foot-1 ul .brand a:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.foot-1 ul p{
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.foot-1 ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.foot-1 ul li:hover{
+    color: red;
+}
+
+.tfiemail{
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.tfiemail:hover{
+    color: red;
+}
+
+                                    /* third footer */
+
+.finish{
+    background-color: #202325;
+    display: flex;
+    width: 100%;
+    height: 15vh;
+}
+
+.finish-1{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    color: aliceblue;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.finish-1 .brands{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.finish-1 .brands img{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: blue;
+    width: 50px;
+    height: 30px;
+    vertical-align: middle
+}

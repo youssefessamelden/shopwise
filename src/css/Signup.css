@@ -1,0 +1,17 @@
+.Sign-up{
+    background-image: url(../imgs/galaxy-11098.jpg);
+    background-size: 100% 100%;
+}
+
+.form-conainer{
+    background-color: rgb(255 255 255 / 40%);
+    box-shadow: #066fef 0 0px 2px 5px;
+}
+
+.sign{
+    color: #00ff1a;
+}
+
+.sign:hover{
+    color: #00efff;
+}

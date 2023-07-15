@@ -1,0 +1,25 @@
+.login{
+    background-image: url(../imgs/galaxy-11098.jpg);
+    background-size: 100% 100%;
+}
+
+.form-conainer{
+    background-color: rgba(255, 255, 255, 0.343);
+    box-shadow: #066fef 0 0px 2px 5px;
+}
+
+.d-flex{
+    justify-content: center !important;
+}
+
+.mt-2 a, .ms-2{
+    text-decoration: none;
+}
+
+.sign{
+    color: #00ff1a !important;
+}
+
+.sign:hover{
+    color: #00efff !important;
+}

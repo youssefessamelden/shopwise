@@ -1,0 +1,40 @@
+.one-co{
+    display: flex;
+    width: 90%;
+    margin: 100px auto;
+}
+
+.one{
+    display: flex;
+}
+
+.one img{
+    height: auto;
+    width: 25vw;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.information h3{
+    color: red;
+    font-size: 3rem;
+}
+
+.information p{
+    color: #fff00b;
+    font-size: 2rem;
+}
+
+.information span{
+    color: navy;
+    font-size: 2rem;
+}
+
+.information .descrption{
+    font-size: 1.2rem;
+}

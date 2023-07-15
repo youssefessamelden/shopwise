@@ -1,0 +1,270 @@
+.nothing{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: brown;
+}
+
+.single-product .cart-btn{
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0000004d;
+    font-size: 20px;
+    color: darkblue;
+    cursor: pointer;
+    margin-left: 0;
+    transition: all 0.3s ease ;
+    position: relative;
+    z-index: 1;
+}
+
+.single-product .cart-btn::before{
+    content: '';
+    background-color: greenyellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .3s ease;
+    width: 51%;
+    height: 100%;
+}
+
+.single-product .cart-btn::after{
+    content: '';
+    background-color: greenyellow;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all .3s ease;
+    width: 51%;
+    height: 100%;
+}
+
+.single-product .cart-btn:hover::before{
+    width: 0%;
+}
+
+.single-product .cart-btn:hover::after{
+    width: 0%;
+}
+
+.single-product .cart-btn:hover{
+    color: red;
+}
+
+                                /* end of cart css */
+.clicked{
+    position: relative;
+}
+
+.clicked::before{
+    content: 'Added';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: red;
+    color: green;
+    z-index: 2;
+    cursor: not-allowed;
+}
+
+.cart-co{
+    display: flex;
+    height: auto;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px auto;
+    align-content: center;
+}
+
+.cart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0 0 25px;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    gap: 19px;
+}
+
+.Productscont{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px 0;
+    align-content: center;
+}
+
+.products{
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.single-product{
+    height: 530px;
+    width: 270px;
+    overflow: hidden;
+    margin: 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.single-product img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 0 25px; 
+}
+
+.single-product .title{
+    font-size: 1.1rem;
+}
+
+.single-product .price{
+    font-size: 1rem;
+}
+
+.single-product .price span{
+    color: darkblue ;
+}
+
+.del{
+    color: rgb(78 75 73 / 47%);
+}
+
+.single-product:hover .opacity{
+    height: 100%;
+    visibility: visible;
+}
+
+.opacity{
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: #0000004d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    z-index: 100;
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+
+.single-product:hover .ic-2{
+    visibility: visible;
+}
+
+
+.ic{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+}
+
+.ic button{
+    width: 150px;
+    height: 40px;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0000004d;
+    font-size: 20px;
+    color: rgba(7, 7, 255, 0.466);
+    cursor: pointer;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.ic button:hover{
+    color: darkblue;
+}
+
+.ic a{
+    width: 150px;
+    height: 40px;
+    background-color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #0000004d;
+    font-size: 20px;
+    color: rgba(7, 7, 255, 0.466);
+    cursor: pointer;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.ic a:hover{
+    color: darkblue;
+}
+
+.ic-2{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    bottom: 5px;
+    left: 15px;
+    visibility: hidden;
+}
+
+.ic-2 span{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 3px solid #2322224d;
+    cursor: pointer;
+}
+
+.ic-2 .color-1{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+}
+
+.ic-2 .color-2{
+    background-color: red;
+    width: 20px;
+    height: 20px;
+}
+
+.ic-2 .color-3{
+    background-color: greenyellow;
+    width: 20px;
+    height: 20px;
+}

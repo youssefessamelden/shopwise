@@ -1,0 +1,78 @@
+@media(max-width:890px){
+    .foot-1 ul p{
+        font-size: 0.6rem;
+    }
+    .foot-1 ul {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .foot-1 .wise{
+        align-items: center;
+    }
+    .foot-1 .wise img{
+        width: auto;
+    }
+    .foot-1{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+
+
+
+@media(max-width:700px){
+    .form{
+        flex-direction: column;
+    }
+    .email input {
+        width: 45vw;
+    }
+    .finish-1{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
+@media(max-width:610px){
+    .email .btn{
+        width: 12vw;
+    }
+}
+
+
+@media(max-width:500px){
+    .foot-1 ul {
+        width: 50%;
+    }
+    .foot-1 .cat{
+        flex-wrap: wrap;
+    }
+    .foot-1 .wise{
+        width: 100%;
+    }
+    .foot-1 .wise p{
+        text-align: center;
+    }
+    span{
+        font-size: 0.6rem;
+    }
+    .email .btn {
+        width: 15vw;
+    }
+    .finish-1 .brands img {
+        width: 30px;
+        height: 20px;
+    }
+    .foot-1 ul {
+        padding: 0;
+    }
+}
+
+
+@media(max-width:415px){
+    .email .btn {
+        width: 18vw;
+    }
+}

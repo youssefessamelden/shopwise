@@ -1,0 +1,427 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.shop-co .dropdown-menu[data-bs-popper] {
+    background: transparent;
+}
+
+.shp{
+    width: 0;
+}
+
+.scroll{
+    height: 6vh;
+    width: 4vw;
+    border-radius: 5px;
+    background-color: #0b22d8;
+    color: burlywood;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    cursor: pointer;
+    transition: all 3s;
+    z-index: 500;
+    /* display: none; */
+}
+
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    display: flex;
+}
+
+.me-auto {
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.dropdown-menu.show {
+    display: block;
+    width: 10px;
+}
+
+.navbar .container {
+    justify-content: center;
+    width: 70%;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.navbar-nav .nav-link.show{
+    color: red;
+}
+
+.dropdown-item{
+    padding: 0;
+    background-color: white;
+    padding-left: 8px;
+}
+
+.dropdown-item:hover{
+    color: red;
+    padding-top: 0;
+}
+
+.dropdown-menu{
+    border: none;
+    padding: 0;
+}
+
+.dropdown-item:active{
+    color: rgba(0, 0, 0, 0.734);
+    background-color: transparent;
+}
+
+.active{
+    text-decoration: none;
+    color: red !important;
+}
+
+.clothes{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    display: inline-block;
+}
+
+.clothes:hover{
+    color: red;
+}
+
+.pro{
+    display: flex;
+    flex-direction: row;
+    width: 67vw;
+    height: 100%;
+    position: relative;
+    right: 620px;
+}
+
+.pro-co{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.pro-co:hover{
+    color: black;
+}
+
+.pro-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 0px 15px;
+    width: 100%;
+    border-right: 2px solid #4241413d;
+}
+
+.pro-1 p{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+}
+
+.pro-1 li{
+    width: 100%;
+    text-align: left;
+    list-style: none;
+}
+
+.pro-1 li:hover{
+    color: red;
+}
+
+.pro-2{
+    border: none;
+}
+
+.pro-3{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 165px;
+    gap: 10px;
+    justify-content: space-between;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 100;
+    background-color: #fff;
+    height: 26vh;
+}
+
+.pro-4{
+    width: 24vw;
+    height: 24vh;
+    margin: 0 15px;
+    display: flex;
+    position: relative;
+}
+
+.pro-4 img{
+    width: 185px;
+    height: 180px;
+    display: flex;
+}
+
+.new-arr{
+    background-color: rgb(141 204 224 / 64%);
+    padding: 0 15px;
+}
+
+.men-fash{
+    background-color: rgb(210 163 105 / 75%);
+    padding: 0 15px;
+}
+
+.kid-fash{
+    background-color: rgb(231, 132, 10);
+    padding: 0 15px;
+}
+
+.arrive{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0 , -50%);
+}
+
+.arrive-1{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.arrive-2{
+    font-size: 1.5rem;
+}
+
+.arrive-3{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.dropend button{
+    border: none !important;
+    background-color: white !important;
+    color: black;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 0;
+}
+
+.dropend button:hover{
+    color: red;
+}
+
+.dropend .btn.show{
+    color: red;
+    background-color: white;
+}
+
+.dropend button::before{
+    width: 0;
+}
+
+.shop-co{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.shop:hover{
+    color: black;
+}
+
+.shop{
+    display: flex;
+    flex-direction: row;
+    width: 68vw;
+    height: 100%;
+    position: relative;
+    right: 795px;
+    padding-right: 10px;
+    background: white;
+}
+
+.shop-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 0px 5px 15px;
+    width: 100%;
+    border-right: 2px solid #4241413d;
+}
+
+.shop-1 p{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+}
+
+.shop-1 li{
+    width: 100%;
+    text-align: left;
+    list-style: none;
+}
+
+.shop-1 li:hover{
+    color: red;
+}
+
+.sale-shop{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/29/21/01/womens-2354920_640.jpg);
+    background-size: 100% 100%;
+    white-space: nowrap;
+    position: relative;
+}
+
+.sale-shop span:hover{
+    color: #fff;
+    cursor: auto;
+}
+
+.sale-shop .opacity{
+    background: rgba(0, 0, 0, 40%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    visibility: visible;
+    position: absolute;
+}
+
+.sale-shop div{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: all .2s ease 0.1s;
+    margin-bottom: 15px;
+}
+
+.sale-shop .p1{
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.sale-shop .p2{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.sale-shop a{
+    position: relative;
+    display: block;
+    padding: 14px 60px;
+    font-size: 16px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid #fff;
+    cursor: pointer;
+    transition: all 0.5s ease ;
+    text-decoration: none;
+    z-index: 1;
+}
+
+.sale-shop a::before{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .3s ease;
+    width: 51%;
+    height: 100%;
+}
+
+.sale-shop a::after{
+    content: '';
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all .3s ease;
+    width: 51%;
+    height: 100%;
+}
+
+.sale-shop a:hover::before{
+    width: 0%;
+}
+
+.sale-shop a:hover::after{
+    width: 0%;
+}
+
+.sale-shop a:hover{
+    color: #fff;
+}
+
+.icon-shop{
+    margin-left: 10px;
+    cursor: pointer;
+    position: relative;
+    padding: 0 12px;
+    font-size: 1.4rem;
+}
+
+svg {
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.icon-shop span:hover{
+    color: red;
+}
+
+.number{
+    border-radius: 50%;
+    width: 10px;
+    height: 14px;
+    position: absolute;
+    top: 5px;
+    right: 3px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bolder;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.nn:hover{
+    color: RED;
+}
+
+.icon-shop a{
+    color: black;
+}
+
+.contact a::after{
+    display: none;
+}
+
+.cc{
+    color: black;
+}
