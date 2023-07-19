@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <StickeyNav/>
       <Routes>
-        <Route path='/home' element={<Home/>}/>
+        <Route path='./home' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path="/login" element={<Login />}/>
         <Route path="/signin" element={<Signup />}/>
