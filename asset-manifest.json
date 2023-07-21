@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/shopwise/static/css/main.e22086bf.css",
-    "main.js": "/shopwise/static/js/main.5a30cd13.js",
+    "main.css": "/shopwise/static/css/main.76b2766a.css",
+    "main.js": "/shopwise/static/js/main.4a77d8e6.js",
     "static/js/787.f0009b97.chunk.js": "/shopwise/static/js/787.f0009b97.chunk.js",
     "static/media/galaxy-11098.jpg": "/shopwise/static/media/galaxy-11098.5e5db0ca316393e20315.jpg",
+    "static/media/slick.svg": "/shopwise/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/shopwise/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/shopwise/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/shopwise/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/shopwise/index.html",
-    "main.e22086bf.css.map": "/shopwise/static/css/main.e22086bf.css.map",
-    "main.5a30cd13.js.map": "/shopwise/static/js/main.5a30cd13.js.map",
+    "main.76b2766a.css.map": "/shopwise/static/css/main.76b2766a.css.map",
+    "main.4a77d8e6.js.map": "/shopwise/static/js/main.4a77d8e6.js.map",
     "787.f0009b97.chunk.js.map": "/shopwise/static/js/787.f0009b97.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e22086bf.css",
-    "static/js/main.5a30cd13.js"
+    "static/css/main.76b2766a.css",
+    "static/js/main.4a77d8e6.js"
   ]
 }
