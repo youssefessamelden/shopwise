@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-co{
+    align-items: center;
+}
+
+.card{
+    margin: 30px auto;
+    border: none;
+    width: 75%;
+}
+
+.card-1 .icon{
+    font-size: 45px;
+}

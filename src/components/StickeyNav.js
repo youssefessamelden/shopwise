@@ -24,15 +24,15 @@ function StickeyNav() {
     };
     
 return (
-    <div>
+    <div className='sticky-co'>
         <button onClick={top} className="scroll"> UP</button>
         <Navbar expand="lg" className="bg-body-tertiary stickey">
-            <Container>
-                <Navbar.Brand href="#"><img src='https://bestwebcreator.com/shopwise/demo/assets/images/logo_dark.png' alt='img'/></Navbar.Brand>
+            
+                <Navbar.Brand className='im' href="#"><img src='https://bestwebcreator.com/shopwise/demo/assets/images/logo_dark.png' alt='img'/></Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                 <Nav
-                    className="me-auto my-2 my-lg-0"
+                    className="me-auto my-2 my-lg-0 "
                     style={{ maxHeight: '100px' }}
                     navbarScroll
                 >
@@ -289,7 +289,7 @@ return (
                 </Navbar.Collapse>
                 <span className='icon-shop'><span><FontAwesomeIcon icon={faMagnifyingGlass} /></span></span>
                 <NavLink className={'cc'} to='/cart'><span className='icon-shop nn'><PiShoppingCartLight/><div className='number'>{numberflter.length}</div></span></NavLink>
-            </Container>
+            
         </Navbar>
     </div>
 )

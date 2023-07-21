@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <StickeyNav/>
       <Routes>
-        <Route exact path="/" component={<Home/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>
         <Route path='/cart' element={<Cart/>}/>
         <Route path="/login" element={<Login />}/>

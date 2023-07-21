@@ -13,9 +13,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #0000004d;
     font-size: 20px;
     color: darkblue;
+    box-shadow: 0 0 11px 5px yellow;
     cursor: pointer;
     margin-left: 0;
     transition: all 0.3s ease ;
@@ -71,8 +71,9 @@
     width: 100%;
     top: 0;
     left: 0;
-    background-color: red;
-    color: green;
+    background: #54c854;
+    box-shadow: 0 0 3px 5px red;
+    color: red;
     z-index: 2;
     cursor: not-allowed;
 }
@@ -198,13 +199,13 @@
 .ic button{
     width: 150px;
     height: 40px;
-    background-color: greenyellow;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #0000004d;
     font-size: 20px;
-    color: rgba(7, 7, 255, 0.466);
+    background-color: rgba(47, 196, 255, 0.447);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 11px 5px blue;
     cursor: pointer;
     margin-left: 0;
     text-decoration: none;
@@ -217,13 +218,13 @@
 .ic a{
     width: 150px;
     height: 40px;
-    background-color: greenyellow;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #0000004d;
     font-size: 20px;
-    color: rgba(7, 7, 255, 0.466);
+    background-color: rgba(47, 196, 255, 0.447);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 11px 5px brown;
     cursor: pointer;
     margin-left: 0;
     text-decoration: none;

@@ -1,0 +1,19 @@
+.product-links{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+
+.product-links .pl{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.active{
+    color: red;
+}

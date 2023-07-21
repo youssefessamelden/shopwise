@@ -1,0 +1,12 @@
+.collection{
+    display: flex;
+    flex-wrap: nowrap !important;
+}
+
+@media(max-width:890px){
+    .collection{
+        flex-wrap: wrap !important;
+        justify-content: center;
+        align-items: center;
+    }
+}

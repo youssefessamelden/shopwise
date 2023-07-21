@@ -1,0 +1,119 @@
+.header{
+    height: 500px;
+    position: relative;
+    margin-top: 20px;
+}
+
+img{
+    height: 100%;
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 180px;
+    transform: translate(0, -50%);
+    align-items: flex-start;
+    justify-content: center;
+    color: black;
+}
+
+.carousel-control-next{
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.carousel-control-prev{
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.carousel-control-prev-icon , .carousel-control-next-icon{
+    padding: 30px;
+    background-color: aliceblue;
+    display: none;
+}
+
+.header-co:hover .carousel-control-prev-icon{
+    display: flex;
+}
+
+.header-co:hover .carousel-control-next-icon{
+    display: flex;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAu0lEQVR4nO2ZSwrCQBQE6yQzG5MoRI+kd3DvVXXjBzyDQ8SdCHEZXj+6IAcouhkm02CMMQuwA46IswEewAScEGX9JTGpyozA80fi872ALUJJ3Gck9ogwWCJQEjf1OvWWCEKXReJqiQCsMiRRgYslAlAzJFGAsyUCUDIk8U+kAQfEKJYRO36bYs2qZcQujU2xZp1lxH51m2LNesuIPdBJ1myYefe1TNRZQTKZMcPQk2p6SzWGppqnjTEsxxuaz+d5ZUvN0AAAAABJRU5ErkJggg==);
+}
+
+.carousel-control-next-icon {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAqklEQVR4nO3ZQQrCQBBE0e8JDdJDFvHsLgwKQW8QQQmM4MLsq5t6ILhM8SeQKJhJacATuAEDSR2AB/DunxUYSWr5GZJ6zKlffIkx8WfMCziTUHiMqHAZUeEyosJlRLmMKpdR5TKqSpUZd17OBoqMmSky5EoyJY5W27nZJxLxCBUuocIlVLiECpdQ4RIqmh8ARbQKJY5V/gydK4zY3CuM+B6t7UeCS/9uVtUHEhTs/ZXHkMQAAAAASUVORK5CYII=);
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+.shop-btn{
+    position: relative;
+    display: block;
+    padding: 14px 60px;
+    font-size: 16px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+    transition: all 0.3s ease ;
+    text-decoration: none;
+}
+
+.shop-btn::before{
+    content: '';
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .3s ease;
+    width: 51%;
+    height: 100%;
+}
+
+.shop-btn::after{
+    content: '';
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    transition: all .3s ease;
+    width: 51%;
+    height: 100%;
+}
+
+.shop-btn:hover::before{
+    width: 0%;
+}
+
+.shop-btn:hover::after{
+    width: 0%;
+}
+
+.shop-btn:hover{
+    color: red;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+.btm{
+    margin-top: 30px;
+}

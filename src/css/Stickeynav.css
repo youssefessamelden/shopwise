@@ -2,6 +2,11 @@ body{
     scroll-behavior: smooth;
 }
 
+.sticky-co{
+    width: 70%;
+    margin: auto;
+}
+
 .shop-co .dropdown-menu[data-bs-popper] {
     background: transparent;
 }

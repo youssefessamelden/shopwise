@@ -1,37 +1,74 @@
-@media(max-width:890px){
-    .information h3{
-        font-size: 2.1rem;
+@media(max-width:1215px){
+    .one{
+        height: 70vh;
     }
-    
-    .information p{
-        font-size: 1.8rem;
+    .one-co{
+        width: 90%;
     }
+}
+
+@media(max-width:965px){
     
-    .information span{
-        font-size: 1.8rem;
+    .one img {
+        height: 28vh;
     }
+}
+
+@media(max-width:900px){
+    .one{
+        height: 80vh;
+    }
+    .one img {
+        height: 28vh;
+    }
+}
+
+@media(max-width:810px){
+    .one-co{
+        width: 95%;
+    }
+    .one img {
+        height: 24vh;
+    }
+}
+
+@media(max-width:786px){
+    .information .descrption {
+        font-size: 12px;
+    }
+
+    .information .add{
+        height: 35px;
+    }
+
+    .information h3 {
+        font-size: 20px;
+    }
+
+    .information p {
+        font-size: 18px;
+    }
+
     
-    .information .descrption{
-        font-size: 1.189rem;
+    .information span {
+        font-size: 17px;
+    }
+
+    .one img{
+        height: 35vh;
     }
 }
 
 
 @media(max-width:700px){
-    .information h3{
-        font-size: 1.8rem;
+    .one img{
+        height: 30vh;
     }
-    
-    .information p{
-        font-size: 1.5rem;
-    }
-    
-    .information span{
-        font-size: 1.5rem;
-    }
-    
-    .information .descrption{
-        font-size: 1rem;
+}
+
+@media(max-width:645px){
+    .one img{
+        height: 25vh;
     }
 }
 
@@ -40,44 +77,27 @@
     .one-co{
         flex-direction: column;
     }
-    .one{
+    .one {
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+        height: 130vh;
     }
-    .one img{
-        
-        width: 50vw;
+    .one img {
+        width: auto;
+        height: 40vh;
     }
 }
 
 
 @media(max-width:500px){
-    .information h3{
-        font-size: 1.5rem;
-    }
-    
-    .information p{
-        font-size: 1.2rem;
-    }
-    
-    .information span{
-        font-size: 1.2rem;
-    }
-    
-    .information .descrption{
-        font-size: 0.8rem;
-    }
-    .information{
-        width: 70%;
-        align-items: center;
-        justify-content: center;
-        height: 390px;
+    .one img {
+        height: 35vh;
     }
 }
 
 @media(max-width:450px){
     .one img {
-        margin: 0 0 50px 0;
+        height: 30vh;
     }
 }
